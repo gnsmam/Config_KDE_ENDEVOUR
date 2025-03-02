@@ -44,4 +44,4 @@ else:
 os.system("echo ###REMOVING KDE PANELS###")
 os.system("rm $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc")
 
-os.system("echo ###Please go into the KDE settings panel and import keybindings from 'keybindings.kksrc' file manually###")
+os.system("echo ###Please go into the KDE settings panel and import keybindings from 'keybindings.kksrc' file manually. \nAfter that reboot your PC###")
