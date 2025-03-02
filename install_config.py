@@ -6,9 +6,9 @@ for package in packages_file:
     package = package + " "
     package_string = package_string + package
 
-print(package_string)
-#os.system("sudo pacman -Syu")
-#os.system("sudo pacman -S " + package_string)
+#print(package_string)
+os.system("sudo pacman -Syu")
+os.system("sudo pacman -S " + package_string)
 
 #foot config install
 os.system("cp -rf foot.ini $HOME/.config/foot")
