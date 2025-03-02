@@ -2,7 +2,6 @@ obs-studio
 pavucontrol
 pipewire
 steam
-teams-for-linux
 virtualbox
 waybar
 xournalpp
