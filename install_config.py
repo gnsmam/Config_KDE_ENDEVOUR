@@ -14,16 +14,18 @@ os.system("sudo pacman -S " + package_string)
 
 #foot config install
 os.system("echo ###INSTALLING FOOT CONFIG###")
-if os.path.exists("$HOME/.config/foot/"):
+if os.path.exists("$HOME/.config/foot/foot.ini"):
+    os.system("rm -r $HOME/.config/foot/foot.ini")
     os.system("cp -rf foot.ini $HOME/.config/foot/")
 else:
     os.system("mkdir $HOME/.config/foot/")
-    os.system("cp -rf fuzzel.ini $HOME/.config/foot/")
+    os.system("cp -rf foot.ini $HOME/.config/foot/")
 
 
 #fuzzel config install
 os.system("echo ###INSTALLING FUZZEL CONFIG###")
 if os.path.exists("$HOME/.config/fuzzel/"):
+    os.system("rm -r $HOME/.config/fuzzel/fuzzel.ini")
     os.system("cp -rf fuzzel.ini $HOME/.config/fuzzel/")
 else:
     os.system("mkdir $HOME/.config/fuzzel/")
