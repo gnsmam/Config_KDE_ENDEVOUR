@@ -33,6 +33,7 @@ os.system("cp -rf waybar $HOME/.config/")
 if os.path.exists("$HOME/.config/autostart/waybar.desktop"):
     os.system("cp -rf waybar.desktop $HOME/.config/autostart/waybar.desktop")
 else:
+    os.system("mkdir $HOME/.config/autostart/")
     os.system("cp -rf waybar.desktop $HOME/.config/autostart/")
 
 #remove kde panels
