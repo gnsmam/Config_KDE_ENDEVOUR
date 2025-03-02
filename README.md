@@ -20,5 +20,5 @@ This repository contains a simple script for installing essential packages along
   3. You might need to manually add the **'foot' terminal** shortcut if an error occurs during the import.
 
 ## Sample Screenshot
-![Sample Screenshot](obraz.png)
+![Sample Screenshot](sample.png)
 
