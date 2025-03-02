@@ -31,9 +31,9 @@ os.system("cp -rf waybar $HOME/.config/")
 
 #add waybar to autostart
 if os.path.exists("$HOME/.config/autostart/waybar.desktop"):
-    os.system("cp -rf waybar.dekstop $HOME/.config/autostart/waybar.desktop")
+    os.system("cp -rf waybar.desktop $HOME/.config/autostart/waybar.desktop")
 else:
-    os.system("cp -rf waybar.dekstop $HOME/.config/autostart/")
+    os.system("cp -rf waybar.desktop $HOME/.config/autostart/")
 
 #remove kde panels
 os.system("rm $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc")
